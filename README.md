@@ -1,13 +1,14 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
 1/1 | test_encrypt
-0/1 | test_get_first_part_of_name
+1/1 | test_get_first_part_of_name
 1/1 | test_get_random_sentence
-2/3 | **Total**
+3/3 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 4)
