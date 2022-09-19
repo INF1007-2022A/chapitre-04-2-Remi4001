@@ -1,0 +1,23 @@
+test_encrypt (__main__.TestExercice) ... ok
+test_get_first_part_of_name (__main__.TestExercice) ... FAIL
+test_get_random_sentence (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_get_first_part_of_name (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 25, in test_get_first_part_of_name
+    self.assertListEqual(
+AssertionError: Lists differ: ['Marie', 'Louis', 'Pierre'] != ['Bonjour, Marie', 'Bonjour, Louis', 'Bonjour, Pierre']
+
+First differing element 0:
+'Marie'
+'Bonjour, Marie'
+
+- ['Marie', 'Louis', 'Pierre']
++ ['Bonjour, Marie', 'Bonjour, Louis', 'Bonjour, Pierre'] : Mauvaise extraction du premier prénom.
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=1)

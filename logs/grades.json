@@ -1,0 +1,1 @@
+[{"func_name": "test_encrypt", "passing": true, "test_name": "test_encrypt", "points": 1}, {"func_name": "test_get_first_part_of_name", "passing": false, "test_name": "test_get_first_part_of_name", "points": 1}, {"func_name": "test_get_random_sentence", "passing": true, "test_name": "test_get_random_sentence", "points": 1}]
